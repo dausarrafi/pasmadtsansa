@@ -1,0 +1,9 @@
+---
+deployment:
+task:
+  - export DEPLOYPATH=/home/mtsb1232/public_html/pas
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp soalkelasvii.html $DEPLOYPATH
+  - /bin/cp soalkelasviii.html $DEPLOYPATH
+  - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R js $DEPLOYPATH
